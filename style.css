@@ -173,7 +173,6 @@ p{
     h1 {
         font-size: 48px;
         letter-spacing: 20px;
-        color: green !important;
     }
  
     h2 {
@@ -220,7 +219,6 @@ p{
         font-size: 42px;
         letter-spacing: 20px;
         color: #ffbfeb;
-        color: blue !important;
     }
  
     h2 {
@@ -268,9 +266,7 @@ p{
 
 @media screen and (max-width: 250px) {
     
-     h1 {
-        color: yellow !important;
-     }
+     
     .grid {
         font-size: 66px;
     }
