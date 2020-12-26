@@ -72,6 +72,7 @@ h1{
     width: 180px;
     left: -6px;
     top: 18px;
+    filter: drop-shadow(5px 8px 4px #fd2525b5);
 }
 
 
@@ -234,7 +235,7 @@ h1{
     }
 
     .twenty-twenty {
-        letter-spacing: 30px;
+        letter-spacing: 22px;
     }
 
     .vaccine {
