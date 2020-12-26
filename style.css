@@ -240,14 +240,14 @@ p{
     }
 
     .grid {
-        font-size: 100px;
-        top: 40px;
+        font-size: 120px;
+        top: 50px;
     }
 
     .mask {
-        width: 56px;
+        width: 74px;
         left: -6px;
-        top: 12px;
+        top: 10px;
     }
 
     .petal {
@@ -259,8 +259,8 @@ p{
     }
 
     .vaccine {
-        height: 84px;
-        top: 12px;
+        height: 96px;
+        top: 7px;
         left: -8px;
     }
 
