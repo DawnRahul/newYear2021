@@ -28,6 +28,11 @@ h1{
 
 }
 
+p{
+    margin:0;
+    padding: 0;
+    display: inline;
+}
 
 .firework {
     position: absolute;
@@ -125,49 +130,54 @@ h1{
     zoom: 1;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1500px){
 
     .grid {
-        font-size: 240px;
+        font-size: 180px;
     }
 
     .mask {
-        width: 148px;
+        width: 124px;
+    }
+
+    .vaccine {
+        height: 170px;
+        top: 17px;
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 980px){
 
     h1 {
         font-size: 56px;
-        color: #ffbfeb;
+        color: red !important;
     }
  
     h2 {
         font-size: 32px;
-        color: #ffbfeb;
-        text-shadow: 5px 4px 5px #780a80ba;
     }
 
 
     .grid {
-        font-size: 240px;
-        top: 54px;
+        font-size: 180px;
+        top: 14px;
+    }
+    .vaccine {
+        height: 170px;
+        top: 17px;
     }
 
 }
 
-@media screen and (max-width: 700px) and (max-height: 800px){
+@media screen and (max-width: 700px) {
     h1 {
         font-size: 48px;
         letter-spacing: 20px;
-        color: #ffbfeb;
+        color: green !important;
     }
  
     h2 {
         font-size: 28px;
-        color: #ffbfeb;
-        text-shadow: 5px 4px 5px #780a80ba;
     }
 
     .firework-1 {
@@ -205,11 +215,12 @@ h1{
 
 }
 
-@media screen and (max-width: 450px) and (max-height: 600px){
+@media screen and (max-width: 450px){
     h1 {
         font-size: 42px;
         letter-spacing: 20px;
         color: #ffbfeb;
+        color: blue !important;
     }
  
     h2 {
@@ -229,8 +240,8 @@ h1{
     }
 
     .grid {
-        font-size: 80px;
-        top: 0px;
+        font-size: 100px;
+        top: 40px;
     }
 
     .mask {
@@ -244,7 +255,7 @@ h1{
     }
 
     .twenty-twenty {
-        letter-spacing: 4px;
+        letter-spacing: 14px;
     }
 
     .vaccine {
@@ -253,5 +264,25 @@ h1{
         left: -8px;
     }
 
+}
+
+@media screen and (max-width: 250px) {
+    
+     h1 {
+        color: yellow !important;
+     }
+    .grid {
+        font-size: 66px;
+    }
+
+    .mask {
+        width: 42px;
+        left: -5px;
+        top: 9px;
+    }
+
+    .twenty-twenty {
+        letter-spacing: 5px;
+    }
 }
 
