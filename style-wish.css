@@ -1,0 +1,87 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top,  rgba(252, 0, 126, 0.486), rgba(243, 169, 203, 0.26)), url("images/pic3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 54px;
+    letter-spacing: 10px;
+    text-shadow: 3px 5px 1px white;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 12px;
+}
+
+#name {
+    font-size: 40px;
+    color:  #fbfafb;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-shadow: 5px 8px 5px #e100f18f;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    text-align: center;
+} 
+
+.message {
+    font-size: 32px;
+    color: #fbfafb;
+    line-height: 1.3;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-shadow: 5px 8px 5px #e100f18f;
+    margin: 0px;
+    text-align: left;
+}
+.message::first-line {
+    text-indent: 15%;
+}
+
+.message-box {
+    width: 44%;
+    min-height: 300px;
+    height: auto;
+    background-color: #f17fb140;
+    margin-left: auto;
+    margin-right: auto;
+    border: 30px ridge rgba(255, 0, 10, .86);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 60px;
+    padding: 32px;
+}
+
+.signature {
+    text-align: right;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.signature p {
+    font-size: 32px;
+    color: #fbfafb;
+    line-height: 1.3;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-shadow: 5px 8px 5px #e100f18f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
