@@ -1,6 +1,8 @@
 
 let targetMask = document.getElementsByClassName("initial-2020")[0];
 let targetVaccine = document.getElementsByClassName("final-2020")[0];
+let targetMyWish = document.querySelector(".my-wish");
+
 setTimeout(() => {
     // for each 50 milliseconds the opacity of element will reduce by 0.02 till opacity becomes 0.
     let op = 100;
@@ -55,3 +57,9 @@ setTimeout(() => {
 
     
 }, 3600);
+
+setTimeout(() => {
+    targetMyWish.style.display = "block";
+    targetMyWish.style.cursor = "pointer";
+    targetMyWish.style.opacity = "1";
+}, 10000);
