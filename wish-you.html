@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
     <title>✨2021✨</title>
     <link rel="stylesheet" href="style-wish.css">
     <link rel="icon" href="images/favicon.ico" type="image/icon">
@@ -18,21 +19,69 @@
 
         <div class="message-box">
             <!-- <p class="message"> A basket full of smile, joy and warm wishes sent to you from thousand miles away for you my dear Friend! A very Happy New Year.</p> -->
-            <p class="message"> New is the year, new are the hopes, new is the resolution, new are the spirits, and new are my warm wishes just for you. Have a promising and fulfilling New Year!</p>
+            <p class="message"> New is the year, new are the hopes, new is the resolution, new are the spirits, and new are my warm wishes just for you. Have a promising and fulfilling New Year❣</p>
             <br>
             <div class="cat-container">
                 <img class="cute-cat" src="https://media.giphy.com/media/JoaeMGYYkHpC/giphy.gif" alt="Cute cat">
             </div>
             
         </div>
+        <button class="send-button" disabled>Send to Someone</button>
         <div class="signature ">
             <p>Developed with ❤️ by</p>
             <p>Ankush, Arunav & Rahul</p>
         </div>
+
+
+
+        <!-- Dialog box for Sharing to Someone -->
+
+        <div class="share-dialog-box-container">
+            <p class="close-dialog">X</p>
+            <div class="share-dialog-box">
+                <p class="sender-name">YOUR NAME  <input id="senderName" type="text" placeholder="Name"></p>
+                <br>
+                <div class="send-via-box">
+                    <p class="send-via-text">Send via :</p>
+
+                    <!-- Whatsapp -->
+                    <a class="share-buttons" href= 
+                    "whatsapp://send?text=https://dawnrahul.github.io/newYear2021/"
+                            data-action="share/whatsapp/share"
+                            target="_blank"> 
+                            <img src="images/whatsapp.png" alt="whatsapp icon">
+                        </a> 
+                    
+
+                      <!-- Facebook -->
+                    <a class="share-buttons" href="https://www.facebook.com/sharer.php?u=https://dawnrahul.github.io/newYear2021/" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+
+                    <!-- Reddit -->
+                     <a class="share-buttons" href="http://reddit.com/submit?url=https://dawnrahul.github.io/newYear2021/&amp;title=My%20Wish%20For%20YOU" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+    </a>
+
+                    <!-- Twitter -->
+                    <a class="share-buttons" href="https://twitter.com/share?url=https://dawnrahul.github.io/newYear2021/&amp;text=My%20Wish%20For%20YOU&amp;hashtags=happyNewYear" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+
+                   <!-- Email -->
+                   <a class="share-buttons" href="mailto:?Subject=My%20Wish%20For%20YOU&amp;Body=https://dawnrahul.github.io/newYear2021/">
+                    <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+                                  </a> 
+
+                </div>
+            </div>
+        </div>
         
     </div>
-    
 
+    
+    
+    <script src="wish-you.js"></script>
     
 </body>
 </html>
