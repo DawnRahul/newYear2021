@@ -94,18 +94,20 @@ p{
     filter: drop-shadow(5px 8px 4px #fd2525b5);
 }
 
-/* .my-wish {
-    opacity: 1;
-    cursor: not-allowed;
-    display: block;
-    text-align:  right;
-    top: -20px;
-    left: -10px;
-} */
-
-
-
 .my-wish {
+    opacity: 0;
+    display: hidden;
+    position: fixed;
+    right: 150px;
+    bottom: 50px;
+}
+.my-wish img {
+    width: 200px; 
+}
+
+
+
+/* .my-wish {
     opacity: 0;
     color:crimson;
     font-size: 24px;
@@ -128,7 +130,7 @@ p{
     100% {
         text-shadow: 2px 2px 1px yellow;
     }
-}
+} */
 
 .petal {
     width: 100%;
@@ -159,13 +161,9 @@ p{
     font-size: 16px;
     display: block;
     text-align: center;
-    color:rgba(241, 225, 225, 0.554);
+    color:rgba(241, 225, 225, 0.654);
 }
 
-/* .tap-here {
-    width: 10px;
-    
-} */
 
 .twenty-twenty {
     display: inline;
@@ -334,8 +332,23 @@ p{
         top: 10px;
     }
 
+    /* .my-wish {
+        font-size: 16px;
+        display: inline;
+        position: fixed;
+        letter-spacing: 3px;
+        right: 30px;
+        bottom: 30px;
+    } */
+
     .my-wish {
-        font-size: 12px;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+    }
+
+    .my-wish img {
+        width: 70px;
     }
 
     .petal {
@@ -343,7 +356,7 @@ p{
     }
 
     .signature {
-        top: 28px;
+        top: 102px;
         position: relative;
         width: 90%;
     }
