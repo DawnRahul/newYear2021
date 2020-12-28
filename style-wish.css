@@ -45,8 +45,35 @@ h1 {
     margin-bottom: 24px;
 }
 
+#senderName {
+    width: 30%;
+    font-size: 24px;
+    padding: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 8px;
+    border: none;
+    margin: 12px 8px;
+    color: #ff5b5b;
+  }
+
+#senderName:focus {
+    outline: none;
+  }
+
 .cat-container {
     text-align: right;
+}
+
+.close-dialog {
+    display: inline;
+    font-size: 32px;
+    position: fixed;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 4px #ec3838;
+    margin: 32px;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
 }
 
 .cute-cat {
@@ -108,17 +135,100 @@ h1 {
     text-align:  right;
 }
 
+.send-button {
+    opacity: 0;
+    background: #d119bc;
+    background-image: -webkit-linear-gradient(top, #d119bc, #b82b2d);
+    background-image: -moz-linear-gradient(top, #d119bc, #b82b2d);
+    background-image: -ms-linear-gradient(top, #d119bc, #b82b2d);
+    background-image: -o-linear-gradient(top, #d119bc, #b82b2d);
+    background-image: linear-gradient(to bottom, #d119bc, #b82b2d);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .send-button:hover {
+    background: #fa3737;
+    background-image: -webkit-linear-gradient(top, #fa3737, #d9349a);
+    background-image: -moz-linear-gradient(top, #fa3737, #d9349a);
+    background-image: -ms-linear-gradient(top, #fa3737, #d9349a);
+    background-image: -o-linear-gradient(top, #fa3737, #d9349a);
+    background-image: linear-gradient(to bottom, #fa3737, #d9349a);
+    text-decoration: none;
+  }
+
+.send-via-box {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.send-via-text {
+    display: inline;
+    margin: 0;
+    padding-top: 18px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 3px #ec3838;
+}
+
+.sender-name {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 4px #ec3838;
+}
+
+.share-buttons img {
+    width: 40px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+    filter:drop-shadow(-1px 8px 4px #fd2525b5);
+    }
+
+.share-dialog-box-container {
+    display: none;
+    /* display: flex; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9916ee3;
+}
+
+.share-dialog-box {
+    width: 60%;
+    padding: 60px 2px;
+    background-color: #ff5b5b;
+    box-shadow: -3px 11px 12px -6px #7f2424;
+}
+
 .signature {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     position: relative;
-    top: -16px;
+    top: 22px;
 }
 
 .signature p {
     font-size: 16px;
-    color:rgba(241, 225, 225, 0.554);
+    color:rgba(241, 225, 225, 0.654);
 }
 
 /* .signature {
@@ -151,6 +261,10 @@ h1 {
 
 @media screen and (max-width: 980px){
 
+    #senderName {
+        width: 50%;
+    }
+
    .message {
        font-size: 24px;
        color: white;
@@ -171,8 +285,33 @@ h1 {
 
 }
 
+@media screen and (max-width: 700px) {
+    #senderName {
+        width: 90%;
+    }
+
+    .close-dialog {
+        font-size: 24px;
+        margin: 24px;
+    }
+
+    .share-dialog-box {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 450px){
+
+    #senderName {
+        width: 85%;
+        font-size: 16px;
+    }
     
+    .close-dialog {
+        font-size: 20px;
+        margin: 16px;
+    }
+
     .message-box {
         min-height: 200px;
         border-width: 16px;
@@ -182,3 +321,4 @@ h1 {
 
 
 }
+
