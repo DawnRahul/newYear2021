@@ -96,7 +96,7 @@ p{
 
 .my-wish {
     opacity: 0;
-    display: hidden;
+    display: none;
     position: fixed;
     right: 150px;
     bottom: 50px;
