@@ -62,4 +62,4 @@ setTimeout(() => {
     targetMyWish.style.display = "block";
     targetMyWish.style.cursor = "pointer";
     targetMyWish.style.opacity = "1";
-}, 10000);
+}, 7500);

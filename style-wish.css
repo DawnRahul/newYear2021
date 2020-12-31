@@ -76,6 +76,10 @@ h1 {
     cursor: pointer;
 }
 
+.contact-us-link {
+    text-decoration: none;
+}
+
 .cute-cat {
     width: 100px;
     height: auto;
@@ -230,6 +234,35 @@ h1 {
     font-size: 16px;
     color:rgba(241, 225, 225, 0.654);
 }
+
+.submit {
+    background: #ff5b5b;
+    background-image: -webkit-linear-gradient(top, #ff5b5b, #e32222);
+    background-image: -moz-linear-gradient(top, #ff5b5b, #e32222);
+    background-image: -ms-linear-gradient(top, #ff5b5b, #e32222);
+    background-image: -o-linear-gradient(top, #ff5b5b, #e32222);
+    background-image: linear-gradient(to bottom, #ff5b5b, #e32222);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    outline: none;
+    border-color: white;
+  }
+  
+  .submit:hover {
+    background: #f52c2c;
+    background-image: -webkit-linear-gradient(top, #f52c2c, #ff5b5b);
+    background-image: -moz-linear-gradient(top, #f52c2c, #ff5b5b);
+    background-image: -ms-linear-gradient(top, #f52c2c, #ff5b5b);
+    background-image: -o-linear-gradient(top, #f52c2c, #ff5b5b);
+    background-image: linear-gradient(to bottom, #f52c2c, #ff5b5b);
+    text-decoration: none;
+  }
 
 /* .signature {
     text-align: right;

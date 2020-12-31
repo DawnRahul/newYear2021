@@ -28,8 +28,10 @@
         </div>
         <button class="send-button" disabled>Send to Someone</button>
         <div class="signature ">
-            <p>Developed with ❤️ by</p>
-            <p>Ankush, Arunav & Rahul</p>
+            <a class="contact-us-link" href="contact-us.html" target="_blank">
+                <p>Developed with ❤️ by</p>
+                <p>Ankush, Arunav & Rahul</p>
+            </a>
         </div>
 
 
@@ -39,11 +41,16 @@
         <div class="share-dialog-box-container">
             <p class="close-dialog">X</p>
             <div class="share-dialog-box">
-                <p class="sender-name">YOUR NAME  <input id="senderName" type="text" placeholder="Name"></p>
-                <br>
-                <div class="send-via-box">
-                    <p class="send-via-text">Send via :</p>
 
+                <form class="form" method="post" action="reset.php">
+                    <p class="sender-name">YOUR NAME  <input id="senderName" type="text" placeholder="Name"> <button type="submit" class="submit">Submit Name</button></p>
+                    
+                    <br>
+                    <div class="send-via-box">
+                        <p class="send-via-text">Send via :</p>
+                </form>
+               
+                    
                     <!-- Whatsapp -->
                     <a class="share-buttons" href= 
                     "whatsapp://send?text=https://dawnrahul.github.io/newYear2021/"
