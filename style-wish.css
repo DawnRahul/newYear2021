@@ -85,6 +85,41 @@ h1 {
     height: auto;
 }
 
+.language-buttons {
+    text-align: left;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+
+.language-button {
+  background: #d119bc;
+  background-image: -webkit-linear-gradient(top, #d119bc, #b82b2d);
+  background-image: -moz-linear-gradient(top, #d119bc, #b82b2d);
+  background-image: -ms-linear-gradient(top, #d119bc, #b82b2d);
+  background-image: -o-linear-gradient(top, #d119bc, #b82b2d);
+  background-image: linear-gradient(to bottom, #d119bc, #b82b2d);
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  border-radius: 50px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 7px 10px 6px;
+  text-decoration: none;
+}
+
+.language-button:hover {
+  background: #b82b2d;
+  background-image: -webkit-linear-gradient(top, #b82b2d, #d119bc);
+  background-image: -moz-linear-gradient(top, #b82b2d, #d119bc);
+  background-image: -ms-linear-gradient(top, #b82b2d, #d119bc);
+  background-image: -o-linear-gradient(top, #b82b2d, #d119bc);
+  background-image: linear-gradient(to bottom, #b82b2d, #d119bc);
+  text-decoration: none;
+}
+
+
+
 .main-container {
     width: 100%;
     height: 100vh;
@@ -132,6 +167,18 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 60px;
     padding: 32px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.message-content-box {
+    padding-top: 8px;
+    padding-left: 32px;
+}
+
+.message-hindi {
+    display: none;
+    line-height: 1.5;
 }
 
 .my-wish {
